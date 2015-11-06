@@ -1,0 +1,26 @@
+{
+  "name": "metalsmith-collection-grouping",
+  "version": "0.1.0",
+  "description": "A Metalsmith plugin for grouping collections by a property",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citricsquid/metalsmith-collection-grouping.git"
+  },
+  "keywords": [
+    "Metalsmith"
+  ],
+  "author": "Samuel Ryan <sam@samryan.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citricsquid/metalsmith-collection-grouping/issues"
+  },
+  "homepage": "https://github.com/citricsquid/metalsmith-collection-grouping#readme",
+  "dependencies": {
+    "lodash.groupby": "^3.1.1"
+  },
+  "devDependencies": {
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith": "^2.1.0"
+  }
+}
